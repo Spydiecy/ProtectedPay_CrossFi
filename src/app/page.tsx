@@ -131,7 +131,7 @@ const Hero = () => {
           className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-8 md:mb-12 text-gray-300 max-w-3xl mx-auto font-light px-4"
           variants={fadeIn}
         >
-          Secure Crypto Transfers, Group Payments, and Smart Savings on Multiple Chains
+          Secure Crypto Transfers, Group Payments, and Smart Savings on CrossFi chain
         </motion.p>
 
         <motion.div 
@@ -229,14 +229,14 @@ const Features = () => (
         />
         {/* Second row highlights unique features */}
         <FeatureCard
-          icon={<ArrowPathIcon className="w-10 h-10 md:w-12 md:h-12" />}
-          title="Multi-Chain Support"
-          description="Seamlessly use the same features across NeoX, Educhain, Flow etc. One interface, multiple chains."
+          icon={<FireIcon className="w-10 h-10 md:w-12 md:h-12" />}
+          title="Mobile Compatibility"
+          description="Fully responsive design for mobile and tablet devices. Access your funds on the go with ease with Scan & Pay."
         />
         <FeatureCard
           icon={<UserCircleIcon className="w-10 h-10 md:w-12 md:h-12" />}
           title="Username Payments"
-          description="Send funds using memorable usernames instead of complex addresses. Usernames work across all supported chains."
+          description="Send funds using memorable usernames instead of complex addresses. Simple and secure identity management."
         />
         <FeatureCard
           icon={<ChartBarIcon className="w-10 h-10 md:w-12 md:h-12" />}
@@ -543,7 +543,7 @@ const CallToAction = () => {
             className="text-base md:text-xl mb-8 md:mb-12 text-gray-300 px-4"
             variants={fadeIn}
           >
-            Join the future of secure, cross-chain payments. Available now on multiple chains.
+            Join the future of secure & refundable payments. Available now on CrossFi chains.
           </motion.p>
 
           <motion.div
@@ -579,86 +579,6 @@ const CallToAction = () => {
           >
             <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
               <Image
-                src="/chains/educhain.png"
-                alt="EDU Chain"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">EduChain</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/ancient8.png"
-                alt="Ancient8"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Ancient8</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/neox.png"
-                alt="NeoX"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">NeoX</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/mantle.png"
-                alt="Mantle"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Mantle</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/kaia.png"
-                alt="Kaia Chain"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Kaia</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/telos.png"
-                alt="Telos Chain"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Telos</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/linea.png"
-                alt="Linea Chain"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Linea</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
-                src="/chains/creator.png"
-                alt="Creator Chain"
-                width={20}
-                height={20}
-                className="rounded-full"
-              />
-              <span className="text-gray-400 text-sm">Creator</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-black/30 px-3 py-1.5 rounded-full border border-green-500/20">
-              <Image
                 src="/chains/crossfi.png"
                 alt="CrossFi Chain"
                 width={20}
@@ -674,81 +594,6 @@ const CallToAction = () => {
   );
 };
 
-const SupportedChains = () => {
-  const chains = [
-    { name: 'EduChain', icon: '/chains/educhain.png', description: 'Education focused blockchain by Open Campus', status: 'Live' },
-    { name: 'Ancient8', icon: '/chains/ancient8.png', description: 'Gaming-focused Ethereum L2 blockchain set to onboard the next 100 mil users', status: 'Live' },
-    { name: 'NeoX', icon: '/chains/neox.png', description: 'High-performance Neo Smaart Economy EVM chain', status: 'Live' },
-    { name: 'Mantle', icon: '/chains/mantle.png', description: 'Mass adoption of token-governed technologies', status: 'Live' },
-    { name: 'Kaia', icon: '/chains/kaia.png', description: 'Kaia is an EVM L1 designed to bring Web3 to millions', status: 'Live' },
-    { name: 'Telos', icon: '/chains/telos.png', description: 'Scalable utility chain with low latency & low network congestion', status: 'Live' },
-    { name: 'Linea', icon: '/chains/linea.png', description: 'Ethereum core devs built L2 offering web2-like speed and zk technology', status: 'Live' },
-    { name: 'Creator', icon: '/chains/creator.png', description: 'AI Superhero L2 blockchain built on OP Stack with revenue sharing & Phantom X NFTs', status: 'Live' },
-    { name: 'CrossFi', icon: '/chains/crossfi.png', description: 'L1 blockchain with modular architecture consisting of Cosmos and EVM', status: 'Live' }
-  ];
-
-  return (
-    <motion.section
-      className="py-12 relative overflow-hidden"
-      variants={stagger}
-      initial="initial"
-      whileInView="animate"
-      viewport={{ once: true }}
-    >
-      <div className="container mx-auto px-4 relative z-10">
-        <motion.h2 
-          className="text-3xl md:text-5xl font-bold mb-8 md:mb-16 text-center"
-          variants={fadeIn}
-        >
-          <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-transparent bg-clip-text">
-            Supported Chains
-          </span>
-        </motion.h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
-          {chains.map((chain) => (
-            <motion.div
-              key={chain.name}
-              className="relative group"
-              variants={fadeIn}
-              whileHover={{ scale: 1.02 }}
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-500/10 rounded-xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              
-              <div className="relative bg-black/40 backdrop-blur-xl p-6 rounded-xl border border-green-500/20 group-hover:border-green-500/40 transition-all duration-300">
-                <div className="flex items-center space-x-4 mb-4">
-                  <div className="relative w-12 h-12">
-                    <Image
-                      src={chain.icon}
-                      alt={chain.name}
-                      fill
-                      className="rounded-full object-contain"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-green-400">{chain.name}</h3>
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-500/10 text-green-400">
-                      {chain.status}
-                    </span>
-                  </div>
-                </div>
-                <p className="text-gray-400 text-sm">{chain.description}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        <motion.div 
-          className="text-center mt-8 text-gray-400"
-          variants={fadeIn}
-        >
-          More chains coming soon...
-        </motion.div>
-      </div>
-    </motion.section>
-  );
-};
-
 export default function ProtectedPayLandingPage() {
   return (
     <div className="bg-black text-white min-h-screen">
@@ -756,7 +601,6 @@ export default function ProtectedPayLandingPage() {
         <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-900/20 via-black to-black" />
         <div className="relative">
           <Hero />
-          <SupportedChains />
           <Features />
           <HowItWorks />
           <CallToAction />

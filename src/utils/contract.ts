@@ -1,15 +1,7 @@
 import { ethers } from 'ethers';
 
 const CONTRACT_ADDRESSES = {
-	12227332: '0xF93132d75c20EfeD556EC2Bc5aC777750665D3a9', // NeoX Testnet
-	656476: '0x03c4fb7563e593ca0625C1c64959AC56081785cE', // EduChain Testnet
-	1001: '0xca36dd890f987edce1d6d7c74fb9df627c216bf6', // KAIA Testnet
-	41: '0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6', // Telos Testnet
-	28122024: '0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6', // Ancient8 Testnet
-	5003: '0x74689f77e03D8213DF5037b681F05b80bAAe3504', // Mantle Testnet
-	59141: '0xd150d34976Ac00D5e892aDFE565ba47de11c2656', // Linea Testnet
 	4157: '0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6', // CrossFi Testnet
-	66665: '0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6', // Creator Testnet
 } as const;
   
 const CONTRACT_ABI = [
@@ -1153,7 +1145,7 @@ interface TransferEvent {
   const getContractAddress = async (signer: ethers.Signer) => {
 	const chainId = await signer.getChainId();
 	return CONTRACT_ADDRESSES[chainId as keyof typeof CONTRACT_ADDRESSES] 
-	  || CONTRACT_ADDRESSES[12227332]; // Default to NeoX if chain not found
+	  || CONTRACT_ADDRESSES[4157]; // Default to NeoX if chain not found
   };
   
   // Contract instance getter with chain awareness
