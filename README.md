@@ -1,35 +1,15 @@
 # ProtectedPay  
 
-ProtectedPay is a multi-chain DeFi platform designed to provide secure transfers, group payments, and smart savings features across multiple blockchains. Prioritizing advanced security and an intuitive user experience, it empowers users to manage and protect their crypto assets effectively.  
+ProtectedPay is a DeFi platform designed to provide secure transfers, group payments, and smart savings features on CrossFi chain. Prioritizing advanced security and an intuitive user experience, it empowers users to manage and protect their crypto assets effectively.  
 
 ![image](https://github.com/user-attachments/assets/ddcdbaa4-aee1-4f6f-b711-e1125d72f239)
-
----
-
-## Supported Chains  
-
-ProtectedPay supports the following blockchains:  
-
-<p align="left">
-    <img align="left" src="/public/chains/educhain.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/neox.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/kaia.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/telos.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/ancient8.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/mantle.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/linea.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/creator.png" width="40" height="40" style="margin-right: 10px;"></img>
-    <img align="left" src="/public/chains/crossfi.png" width="40" height="40" style="margin-right: 10px;"></img>
-</p>
-
-<br clear="left"/>
 
 ---
 
 ## Key Features  
 
 ### 1. Protected Cross-Chain Transfers  
-- Secure asset transfers across multiple blockchains.  
+- Secure asset transfers across CrossFi chain.  
 - Smart contract protection ensures funds are held securely until claimed.  
 - Transfers can be initiated using usernames or wallet addresses.  
 - Customizable remarks for tracking and easy refunds for unclaimed transfers.  
@@ -38,7 +18,7 @@ ProtectedPay supports the following blockchains:
 
 
 ### 2. Group Payments  
-- Multi-chain payment pools with automatic expense splitting.  
+- Payment pools with automatic expense splitting.  
 - Real-time tracking of contributions and instant distribution upon completion.  
 - Support for cross-chain participants.  
 - ![image](https://github.com/user-attachments/assets/56141ff7-ad4b-4a1e-bfac-5abdd92b22a9)
@@ -58,7 +38,7 @@ ProtectedPay supports the following blockchains:
 ### Core Functionalities
 ![image](https://github.com/user-attachments/assets/a3f64a6a-5504-4a0c-988e-a76364ea4879)
 - Cross-chain username system for seamless transfers.  
-- Unified multi-chain transaction history and activity dashboard.  
+- Unified transaction history and activity dashboard.  
 - Real-time, network-specific balance tracking.  
 - Chain-aware progress visualizations for user insights.  
 
@@ -87,7 +67,7 @@ ProtectedPay supports the following blockchains:
 - Funds are claimed securely, with refunds available for unclaimed transfers.  
 
 ### 2. Group Payments  
-- Create a multi-chain payment pool with participants and target amounts.  
+- Create a payment pool with participants and target amounts.  
 - Accept cross-chain contributions and distribute funds automatically.  
 
 ### 3. Savings Pots  
@@ -106,10 +86,8 @@ ProtectedPay supports the following blockchains:
 ![User Interface](https://github.com/user-attachments/assets/30e60cb0-f90f-4e7a-9484-d24e31d3fcf9)  
 
 ### Dashboard Features  
-- Comprehensive multi-chain activity tracking.  
+- Comprehensive activity tracking for all the features.  
 - Status indicators and network switching for seamless navigation.
-
-![image](https://github.com/user-attachments/assets/b979d9b9-2050-483c-86d1-9c39cc6208af)
 
 ---
 
@@ -122,19 +100,11 @@ ProtectedPay ensures user safety through:
 
 ---
 
-## Deployed Contracts  
+## Deployed Contract
 
 | Network       | Contract Address                                   |  
-|---------------|----------------------------------------------------|  
-| Educhain Testnet | `0x03c4fb7563e593ca0625C1c64959AC56081785cE`    |  
-| Ancient8 Testnet | `0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6`    | 
-| NeoX Testnet  | `0xF93132d75c20EfeD556EC2Bc5aC777750665D3a9`       |
-| Mantle Testnet | `0x74689f77e03D8213DF5037b681F05b80bAAe3504`      | 
-| KAIA Testnet  | `0xca36dd890f987edce1d6d7c74fb9df627c216bf6`       |  
-| Telos Testnet | `0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6`       |  
-| Linea Testnet | `0xd150d34976Ac00D5e892aDFE565ba47de11c2656`       |  
-| CrossFi Testnet | `0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6`     |  
-| Creator Testnet | `0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6`     |  
+|---------------|----------------------------------------------------| 
+| CrossFi Testnet | `0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6`     | 
 
 ---
 
