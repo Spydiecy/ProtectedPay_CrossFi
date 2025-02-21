@@ -122,4 +122,4 @@ For queries or issues, reach out at:
 
 ---
 
-**ProtectedPay** - Revolutionizing secure multi-chain asset management! 🚀  
+**ProtectedPay** - Revolutionizing secure asset management on CrossFi! 🚀  
